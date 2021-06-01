@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Inter", Helvetica, sans-serif;
+  background-color: #F2F2F2;
+  color: #4A4A4A;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow-x: hidden
+}
+

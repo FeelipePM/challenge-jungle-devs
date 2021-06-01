@@ -1,0 +1,28 @@
+.success, .error {
+  position: absolute;
+  top: -55px;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  background-color: #00C88C;
+}
+ 
+
+.error {
+  background-color: #D13704;
+}
+
+.success span, .error span {
+  color: #fff;
+}
+
+

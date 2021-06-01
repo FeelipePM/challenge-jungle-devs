@@ -1,0 +1,51 @@
+.childcare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.childcare img {
+  margin-bottom: 104px;
+  width: 984px;
+    height: 392px;
+}
+
+.topic.-childcare {
+  width: 784px;
+  text-align: center;
+  margin: 96px 0 64px 0;
+}
+
+.topic.-childcare .title{
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .childcare img {
+  display: none;
+}
+
+.topic.-childcare {
+  width: 100%;
+  margin: 64px 0 0 0;
+  padding: 0 16px;
+}
+
+}
+
+@media (max-width: 440px) {
+  .topic.-childcare .title{
+    font-size: 22px;
+    width: none;
+  }
+
+  .topic.-childcare .text{
+    margin: 16px 0 24px 0;
+  }
+
+  .topic.-childcare .link{
+    display: flex;
+    padding: 0 16px;
+  }
+}

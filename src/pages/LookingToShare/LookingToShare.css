@@ -1,0 +1,72 @@
+.lookingToShare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lookingToShare .messageArea {
+  margin: 0 16px;
+}
+
+.lookingToShare .messageArea h3{
+  margin: 64px 0 16px 0 ;
+  color: #3D3D3D;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.lookingToShare .messageArea p{
+  color: #3D3D3D;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.inputShare {
+  position: relative;
+  margin: 74px 0 64px 0;
+  padding: 0 16px;
+}
+
+.sendButton {
+  color: #FFFFFF;
+  border-radius: 4px;
+  background-color: #00C88C;
+  border: none;
+  padding: 14px 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sendButton:hover {
+  background-color: rgba(37, 193, 146, 0.8);
+}
+
+@media (max-width:640px) {
+
+  .inputShare input:not(:last-child) {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .inputShare button {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 440px) {
+  .lookingToShare .messageArea h3 {
+    width: 328px;
+  }
+
+  .lookingToShare .messageArea p {
+    margin: 16px 16px 32px 16px;
+    line-height: 28px;
+  }
+
+  .lookingToShare .inputShare, .lookingToShare .sendButton {
+    margin: 0;
+  }
+}

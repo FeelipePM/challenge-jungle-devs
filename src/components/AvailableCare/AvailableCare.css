@@ -1,0 +1,31 @@
+.availableCare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #FFFFFF;
+  color: #000;
+}
+
+.availableCare img {
+  width: 66px;
+  height: 66px;
+}
+
+.availableCare a {
+  margin: 0 2px 0 20px;
+  color: #5E20A4;
+}
+
+@media (max-width: 790px) {
+  .availableCare {
+    flex-direction: column;
+    padding: 32px 0;
+  }
+
+  .availableCare a {
+    width: 212px;
+    text-align: center;
+    margin: 16px 0 12px 0;
+  }
+}

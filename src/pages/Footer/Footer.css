@@ -1,0 +1,160 @@
+.footer {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .wrapperMedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 82px;
+}
+
+.footer .createNannyShare{
+  text-align: center;
+}
+
+.footer .createNannyShare h1{
+  padding: 80px 0 16px 0;
+  font-size: 28px;
+  font-weight: 500;
+  color: #3D3D3D;
+}
+
+.footer .createNannyShare p {
+  margin-bottom: 32px;
+}
+
+.footer .createNannyShare button {
+  width: 302px;
+  height: 68px;
+  background: #5E20A4;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .createNannyShare .wrapperTitle .buttonTitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer .createNannyShare button span{
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+.footer .createNannyShare a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5E20A4;
+  margin-top: 24px;
+}
+
+.footer .calendar {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.footer .wrapperMedia nav {
+  margin: 0 206px 0 335px;
+}
+
+.footer .wrapperMedia li {
+  list-style: none;
+}
+
+.footer .wrapperMedia li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer .wrapperMedia ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer .copyright {
+  color: #3D3D3D;
+  font-size: 12px;
+  opacity: 0.6;
+  padding: 90px 0 32px 0;
+}
+
+.footer .social-media img:not(:last-child) {
+  margin-right: 16px;
+}
+
+.footer .divider:after {
+  display: none;
+}
+
+@media (max-width: 1262px) {
+  .footer .wrapperMedia {
+  flex-direction: column;
+}
+
+.footer .wrapperMedia nav {
+  margin: 40px 74px 24px 74px;
+}
+}
+
+@media (max-width: 900px) {
+  .footer .divider:after {
+    display: block;
+  }
+
+  .footer .copyright {
+    padding: 0 0 24px 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .footer .wrapperMedia {
+    padding-top: 54px;
+  }
+
+  .footer .createNannyShare h1 {
+    padding: 40px 0 5px 0;
+    font-size: 22px;
+}
+
+
+.footer .wrapperMedia ul {
+    font-size: 14px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .wrapperMedia li:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .footer .wrapperMedia .share, .story {
+    margin-bottom: 17px;
+  }
+
+  .footer .wrapperMedia .blog {
+    margin-left: 24px;
+  }
+
+  .footer .createNannyShare button {
+    margin: 24px 0 24px 0;
+  }
+}
+
+

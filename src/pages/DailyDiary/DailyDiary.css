@@ -1,0 +1,48 @@
+.dailyDiary  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dailyDiary img {
+  margin: 96px 0 40px 0;
+  width: 216px;
+  height: 96px;
+}
+
+.dailyDiary .topic.-diary {
+  width: 784px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.dailyDiary .topic.-diary .title {
+  width: 100%;
+}
+
+.dailyDiary .topic.-diary .text {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .dailyDiary .topic.-diary {
+    width: 100%;
+    margin: 24px 0 64px 0;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 440px) {
+  .dailyDiary img {
+    margin: 64px 0 24px 0;
+  }
+
+  .dailyDiary .topic.-diary .title {
+    font-size: 22px;
+  }
+
+  .dailyDiary .topic.-diary .text {
+    margin: 16px 0 0 0;
+  }
+}
